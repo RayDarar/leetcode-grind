@@ -1,0 +1,11 @@
+{
+  "[rust]": {
+    "editor.tabSize": 4
+  },
+  "rust-analyzer.linkedProjects": [
+    "./daily-challenges/Cargo.toml"
+  ],
+  "cSpell.words": [
+    "nums"
+  ]
+}
