@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/contains-duplicate/
+
 class Solution:
     def containsDuplicate(self, nums: list[int]) -> bool:
         memory = set()
@@ -7,6 +9,3 @@ class Solution:
                 return True
             memory.add(n)
         return False
-
-
-print(Solution().containsDuplicate([1, 2, 2, 3]))

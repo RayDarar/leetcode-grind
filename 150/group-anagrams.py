@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/group-anagrams/
+
 from collections import defaultdict
 
 class Solution:
@@ -9,6 +11,3 @@ class Solution:
             groups[key].append(s)
 
         return list(groups.values())
-
-
-print(Solution().groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]))

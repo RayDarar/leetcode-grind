@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/product-of-array-except-self/
+
 class Solution:
     def productExceptSelf(self, nums: list[int]) -> list[int]:
         n = len(nums)
@@ -15,6 +17,3 @@ class Solution:
             post *= nums[n - i - 1]
 
         return answer
-
-
-print(Solution().productExceptSelf([1, 2, 3, 4]))
