@@ -2,6 +2,9 @@
   "[rust]": {
     "editor.tabSize": 4
   },
+  "[python]": {
+    "editor.tabSize": 4
+  },
   "rust-analyzer.linkedProjects": [
     "./daily-challenges/Cargo.toml"
   ],
