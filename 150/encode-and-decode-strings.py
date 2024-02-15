@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/encode-and-decode-strings/
+
 class Codec:
     def encode(self, strs: list[str]) -> str:
         """Encodes a list of strings to a single string."""
@@ -28,8 +30,3 @@ class Codec:
             i = i + n
 
         return result
-
-
-c = Codec()
-
-print(c.decode(c.encode(["same", "as", "all"])))

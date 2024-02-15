@@ -1,4 +1,4 @@
-# https://leetcode.com/problems/third-maximum-number/description/
+# https://leetcode.com/problems/third-maximum-number/
 
 import math
 
